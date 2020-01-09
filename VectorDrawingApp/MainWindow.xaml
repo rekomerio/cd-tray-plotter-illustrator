@@ -1,0 +1,23 @@
+﻿<Window x:Class="VectorDrawingApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VectorDrawingApp"
+        mc:Ignorable="d"
+        Title="Vector Drawing App" Height="350" Width="350"
+        KeyDown="OnKeyDown"
+        KeyUp="OnKeyUp"
+        MouseDown="OnMouseDown"
+        MouseUp="OnMouseUp"
+        MouseMove="OnMouseMove" Background="#FF0F2B6E"
+        >
+    <Canvas 
+        Name="canvas"
+        Height="250"
+        Width="250"
+        Background="#FF487FFF"
+        >
+    </Canvas>
+
+</Window>
